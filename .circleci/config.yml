@@ -7,8 +7,9 @@ jobs:
     steps:
       - mabl-trigger-tests/run-tests:
           api-key: MABL_API_KEY
-          application-id: pqemGZA1wQIFRKaGb4IUzg-a
-          environment-id: Jw7oBZlxKXVGxK3_eWxcWQ-e          
+          application-id: eHL81RPSjuVW4fUcxoDtbw-a
+          environment-id: Jw7oBZlxKXVGxK3_eWxcWQ-e
+          url: https://www.ietf.org/          
 workflows:
   run-tests:
     jobs:
