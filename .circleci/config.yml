@@ -9,6 +9,7 @@ jobs:
           api-key: MABL_API_KEY
           application-id: pqemGZA1wQIFRKaGb4IUzg-a
           environment-id: Jw7oBZlxKXVGxK3_eWxcWQ-e
+      - mabl-trigger-tests/parse-results
 workflows:
   run-tests:
     jobs:
