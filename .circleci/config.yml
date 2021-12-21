@@ -7,8 +7,8 @@ jobs:
     steps:
       - mabl-trigger-tests/run-tests:
           api-key: MABL_API_KEY
-          application-id: eHL81RPSjuVW4fUcxoDtbw-a
-          environment-id: $ENV_ID
+          application-id: mZdHH6jnBGLW6G56mMK3tg-a
+          environment-id: WRZ3WcvFQ2MTgqC41ZxmMw-e
 workflows:
   run-tests:
     jobs:
